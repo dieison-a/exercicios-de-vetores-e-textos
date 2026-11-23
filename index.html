@@ -1,0 +1,71 @@
+﻿<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore contagens, somas, médias e transformações de texto usando uma amostra curta e inteiramente fictícia.">
+    <title>
+      Laboratório de Texto e Vetores
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js">
+    </script>
+  </head>
+  <body>
+    <header class="topo">
+      <a class="marca" href="index.html">
+        PROJETO
+        <span>
+          ·
+        </span>
+        Laboratório
+      </a>
+      <span class="selo">
+        DEMONSTRAÇÃO LOCAL
+      </span>
+    </header>
+    <main>
+      <section class="abertura">
+        <p class="sobretitulo">
+          ESTUDO INTERATIVO · JAVASCRIPT
+        </p>
+        <h1>
+          Laboratório de Texto e Vetores
+        </h1>
+        <p class="introducao">
+          Explore contagens, somas, médias e transformações de texto usando uma amostra curta e inteiramente fictícia.
+        </p>
+      </section>
+      <section class="painel">
+        <div class="campo">
+          <label for="texto">
+            Texto para análise
+          </label>
+          <textarea id="texto" rows="4">
+            A praça abriu cedo; as árvores ganharam folhas novas.
+          </textarea>
+        </div>
+        <div class="acoes">
+          <button id="analisar">
+            Analisar amostra
+          </button>
+        </div>
+        <div id="resultado" class="resultado" aria-live="polite">
+        </div>
+      </section>
+      <section class="painel">
+        <h2>
+          Vetor numérico
+        </h2>
+        <p id="vetor">
+        </p>
+        <div id="resumo" class="grade">
+        </div>
+      </section>
+    </main>
+    <footer>
+      Projeto demonstrativo independente · dados fictícios · sem serviços externos
+    </footer>
+  </body>
+</html>
+
